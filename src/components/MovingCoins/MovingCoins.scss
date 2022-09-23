@@ -1,0 +1,102 @@
+// .moving-coins-wrapper {
+//     // position: relative;
+    
+//     .coins {
+//         // width: auto;
+//         // height: 50%;
+//         position: relative;
+//         z-index: 10;
+//         background-color: black;
+//         top: 100px;
+//         left: 800px;
+
+//         &-coin {
+//             position: absolute;
+//         }
+        
+//         // ====  START ====
+
+//         .start-tesla {
+//             width: 90px;
+//             left: 300px;
+//             filter: blur(2px);
+//         }
+        
+//         .start-apple {
+//             width: 100px;
+//             left: 400px;
+//             top: 110px;
+//             filter: blur(1.5px);
+//         }
+
+//         .start-bitcoin {
+//             width: 110px;
+//             left: 250px;
+//             top: 220px;
+//         }
+
+//         .start-ethereum {
+//             width: 120px;
+//             left: 370px;
+//             top: 330px;
+//         }
+
+//         .start-facebook {
+//             width: 170px;
+//             // left: 100px;
+//             top: 330px;
+
+//             // animation: coin2 2s linear 1 0s forwards;
+//         }
+
+//         @keyframes coin2 {
+//             100% {
+//                 left: 100px;
+//             }
+//         }
+
+//         // === 2nd page ===
+
+//         .page-2-tesla {
+//             width: 90px;
+//             left: 300px;
+//             filter: blur(2px);
+//         }
+        
+//         .page-2-apple {
+//             width: 100px;
+//             left: 400px;
+//             top: 110px;
+//             filter: blur(1.5px);
+//         }
+
+//         .page-2-bitcoin {
+//             width: 110px;
+//             left: 250px;
+//             top: 220px;
+//         }
+
+//         .page-2-ethereum {
+//             width: 120px;
+//             left: 370px;
+//             top: 330px;
+//         }
+
+//         .page-2-facebook {
+//             width: 170px;
+//             left: 100px;
+//             top: 330px;
+
+//             // animation: coin 2s linear 1 0s forwards;
+//         }
+
+
+//         @keyframes coin {
+//             100% {
+//                 left: 2000px;
+//             }
+//         }
+        
+//     }
+
+// }

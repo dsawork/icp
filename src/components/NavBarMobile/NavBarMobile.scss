@@ -1,0 +1,1238 @@
+#nav-icon4 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin: 50px auto;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    z-index: 999;
+}
+  
+#nav-icon4 span {
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: white;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+
+#nav-icon4 span:nth-child(1) {
+    top: 5px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+#nav-icon4 span:nth-child(2) {
+    top: 15px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+    width: 70%;
+    margin-left: 30%;
+}
+
+#nav-icon4 span:nth-child(3) {
+    top: 25px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+#nav-icon4.open span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 4px;
+    left: 5px;
+    background-color: black;
+}
+
+#nav-icon4.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+    background-color: black;
+}
+
+#nav-icon4.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 25px;
+    left: 5px;
+    background-color: black;
+}
+
+
+
+
+//  ====================== 768 < 1030 ========================
+
+
+@media screen and (max-width: 1030px) and (min-width: 769px) {
+    .navbar {
+        overflow: hidden;
+        display: flex;
+        width: 100%;
+        z-index: 100;
+        
+        &-logo {
+            padding: 50px 0 50px 5%;
+            z-index: 10;
+            
+            &-icon {
+                cursor: pointer;
+            }
+        }
+        
+        &-tools {
+            z-index: 10;
+            display: flex;
+            margin-left: auto;
+            padding-right: 5%;
+            
+            &-item {
+                display: flex;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                cursor: pointer;
+                margin: auto 0 auto 0;
+            }
+            
+            .lang {
+                margin-right: 40px;
+                &-arrow {
+                    padding: 7px 0px 7px 2px;
+                }
+            }
+            
+            .loupe {
+                margin-right: 40px;
+            }
+            
+            .login {
+                margin-right: 40px;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 7px 18px;
+                
+                font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                
+                background: #00FFF0;
+                border-radius: 4px;
+                border: 1px solid #00FFF0;
+                color: black;
+            }
+            
+            .login:hover {
+                background: #00002D;
+                color: #00FFF0;
+            }
+
+            .menu {
+                color: #000000;
+
+                img {
+                    z-index: 999;
+                }
+                
+                &-content {
+                    position: relative;
+                    background-color: #00FFF0;
+
+                    &-hidden {
+                        position: absolute;
+                        width: 0;
+                        height: 0;
+                        display: none;
+                    }
+
+                    &-visible {
+                        position: absolute;
+                        width: 100%;
+                        height: 100vh;
+                        display: block;
+
+                        animation: menu-visible .2s linear 1 0s forwards;
+                    }
+
+                    @keyframes menu-visible {
+                        0% {
+                          left: 100%;
+                          top: -100%;
+                          opacity: 0.4;
+                          scale: 0.5;
+                        }
+                        100% {
+                          left: 0;
+                          top: 0;
+                          opacity: 1;
+                          scale: 1;
+                        }
+                    }
+
+                    &-header {
+                        padding: 50px 5% 5% 5%;
+                    }
+
+                    &-content {
+                        padding: 5%;
+                        display: grid;
+                        height: 60%;
+
+                        &-item {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 48px;
+                            line-height: 58px;
+                        }
+                    }
+
+                    &-footer {
+                        position: absolute;
+                        padding: 5%;
+                        bottom: 0;
+                        display: grid;
+                        grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+                        gap: 10px;
+
+                        &-item {
+                            display: flex;
+                            height: 60px;
+
+                            img {
+                                width: 60px;
+                                height: 60px;
+                            }
+
+                            &-text {
+                                font-family: Inter;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 25px;
+                                line-height: 60px;
+                            }
+                        }
+
+                    }
+                    
+                    &-login {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+//  ======================  < 768 ========================
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        overflow: hidden;
+        display: flex;
+        width: 100%;
+        z-index: 100;
+        
+        &-logo {
+            padding: 50px 0 50px 5%;
+            z-index: 10;
+            
+            &-icon {
+                cursor: pointer;
+            }
+        }
+        
+        &-tools {
+            z-index: 10;
+            display: flex;
+            margin-left: auto;
+            padding-right: 5%;
+            
+            &-item {
+                display: flex;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                cursor: pointer;
+                margin: auto 0 auto 0;
+            }
+            
+            .lang {
+                margin-right: 40px;
+                &-arrow {
+                    padding: 7px 0px 7px 2px;
+                }
+                display: none;
+            }
+            
+            .loupe {
+                margin-right: 40px;
+                display: none;
+            }
+            
+            .login {
+                margin-right: 40px;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 7px 18px;
+                
+                font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                
+                background: #00FFF0;
+                border-radius: 4px;
+                border: 1px solid #00FFF0;
+                color: black;
+
+                display: none;
+            }
+            
+            .login:hover {
+                background: #00002D;
+                color: #00FFF0;
+            }
+
+            .menu {
+                color: #000000;
+
+                img {
+                    z-index: 999;
+                }
+                
+                &-content {
+                    position: relative;
+                    background-color: #00FFF0;
+                    
+                    &-hidden {
+                        position: absolute;
+                        width: 0;
+                        height: 0;
+                        display: none;
+                    }
+
+                    &-visible {
+                        position: absolute;
+                        width: 100%;
+                        height: 100vh;
+                        display: block;
+
+                        animation: menu-visible .2s linear 1 0s forwards;
+                    }
+
+                    @keyframes menu-visible {
+                        0% {
+                          left: 100%;
+                          top: -100%;
+                          opacity: 0.4;
+                          scale: 0.5;
+                        }
+                        100% {
+                          left: 0;
+                          top: 0;
+                          opacity: 1;
+                          scale: 1;
+                        }
+                    }
+
+                    &-header {
+                        padding: 50px 5% 5% 5%;
+                    }
+
+                    &-content {
+                        padding: 5%;
+
+                        &-item {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 35px;
+                            line-height: 58px;
+                            padding-bottom: 10px;
+                        }
+                    }
+
+                    &-footer {
+                        padding: 0 5% 5% 5%;
+                        gap: 10px;
+
+                        &-item {
+                            display: flex;
+                            height: 60px;
+
+                            img {
+                                width: 40px;
+                                height: 40px;
+                            }
+
+                            &-text {
+                                font-family: Inter;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 20px;
+                                line-height: 40px;
+                            }
+                        }
+                    }
+
+                    &-login {
+                        display: block;
+                        padding: 0 5% 0 5%;
+                        
+                        .login-mobile {
+                            
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 14px 30px;
+                            gap: 10px;
+
+                            width: 60px;
+                            height: 20px;
+
+                            background: #00FFF0;
+                            border-radius: 10px;
+
+                            border: 1px solid black;
+                        }
+                    }
+                
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+//  ======================  < 600 ========================
+
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        overflow: hidden;
+        display: flex;
+        width: 100%;
+        z-index: 100;
+        
+        &-logo {
+            padding: 50px 0 50px 5%;
+            z-index: 10;
+            
+            &-icon {
+                cursor: pointer;
+            }
+        }
+        
+        &-tools {
+            z-index: 10;
+            display: flex;
+            margin-left: auto;
+            padding-right: 5%;
+            
+            &-item {
+                display: flex;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                cursor: pointer;
+                margin: auto 0 auto 0;
+            }
+            
+            .lang {
+                margin-right: 40px;
+                &-arrow {
+                    padding: 7px 0px 7px 2px;
+                }
+                display: none;
+            }
+            
+            .loupe {
+                margin-right: 40px;
+                display: none;
+            }
+            
+            .login {
+                margin-right: 40px;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 7px 18px;
+                
+                font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                
+                background: #00FFF0;
+                border-radius: 4px;
+                border: 1px solid #00FFF0;
+                color: black;
+
+                display: none;
+            }
+            
+            .login:hover {
+                background: #00002D;
+                color: #00FFF0;
+            }
+
+            .menu {
+                color: #000000;
+
+                img {
+                    z-index: 999;
+                }
+                
+                &-content {
+                    position: relative;
+                    background-color: #00FFF0;
+                    
+                    &-hidden {
+                        position: absolute;
+                        width: 0;
+                        height: 0;
+                        display: none;
+                    }
+
+                    &-visible {
+                        position: absolute;
+                        width: 100%;
+                        height: 100vh;
+                        display: block;
+
+                        animation: menu-visible .2s linear 1 0s forwards;
+                    }
+
+                    @keyframes menu-visible {
+                        0% {
+                          left: 100%;
+                          top: -100%;
+                          opacity: 0.4;
+                          scale: 0.5;
+                        }
+                        100% {
+                          left: 0;
+                          top: 0;
+                          opacity: 1;
+                          scale: 1;
+                        }
+                    }
+
+                    &-header {
+                        padding: 50px 5% 5% 5%;
+                    }
+
+                    &-content {
+                        padding: 5%;
+
+                        &-item {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 30px;
+                            line-height: 58px;
+                            padding-bottom: 5px;
+                        }
+                    }
+
+                    &-footer {
+                        padding: 0 5% 5% 5%;
+                        gap: 10px;
+
+                        &-item {
+                            display: flex;
+                            height: 60px;
+
+                            img {
+                                width: 40px;
+                                height: 40px;
+                            }
+
+                            &-text {
+                                font-family: Inter;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 40px;
+                            }
+                        }
+                    }
+
+                    &-login {
+                        display: block;
+                        padding: 0 5% 0 5%;
+                        
+                        .login-mobile {
+                            
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 14px 30px;
+                            gap: 10px;
+
+                            width: 60px;
+                            height: 20px;
+
+                            background: #00FFF0;
+                            border-radius: 10px;
+
+                            border: 1px solid black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+//  ======================  < 480 ========================
+
+
+@media screen and (max-width: 481px) {
+    .navbar {
+        overflow: hidden;
+        display: flex;
+        width: 100%;
+        z-index: 100;
+        
+        &-logo {
+            padding: 30px 0 50px 5%;
+            z-index: 10;
+            
+            &-icon {
+                cursor: pointer;
+                height: 40px;
+            }
+        }
+        
+        &-tools {
+            z-index: 10;
+            display: flex;
+            margin-left: auto;
+            padding-right: 5%;
+            
+            &-item {
+                display: flex;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                cursor: pointer;
+                margin: auto 0 auto 0;
+            }
+            
+            .lang {
+                margin-right: 40px;
+                &-arrow {
+                    padding: 7px 0px 7px 2px;
+                }
+                display: none;
+            }
+            
+            .loupe {
+                margin-right: 40px;
+                display: none;
+            }
+            
+            .login {
+                margin-right: 40px;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 7px 18px;
+                
+                font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                
+                background: #00FFF0;
+                border-radius: 4px;
+                border: 1px solid #00FFF0;
+                color: black;
+
+                display: none;
+            }
+            
+            .login:hover {
+                background: #00002D;
+                color: #00FFF0;
+            }
+
+            .menu {
+                color: #000000;
+
+                #nav-icon4 {
+                    margin-top: 25px;
+                }
+
+                img {
+                    z-index: 999;
+                }
+                
+                &-content {
+                    position: relative;
+                    background-color: #00FFF0;
+                    
+                    &-hidden {
+                        position: absolute;
+                        width: 0;
+                        height: 0;
+                        display: none;
+                    }
+
+                    &-visible {
+                        position: absolute;
+                        width: 100%;
+                        height: 100vh;
+                        display: block;
+
+                        animation: menu-visible .2s linear 1 0s forwards;
+                    }
+
+                    @keyframes menu-visible {
+                        0% {
+                          left: 100%;
+                          top: -100%;
+                          opacity: 0.4;
+                          scale: 0.5;
+                        }
+                        100% {
+                          left: 0;
+                          top: 0;
+                          opacity: 1;
+                          scale: 1;
+                        }
+                    }
+
+                    &-header {
+                        padding: 30px 5% 5% 5%;
+
+                        img {
+                            height: 40px;
+                        }
+                    }
+
+                    &-content {
+                        padding: 5%;
+
+                        &-item {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 28px;
+                            line-height: 50px;
+                            padding-bottom: 1px;
+                        }
+                    }
+
+                    &-footer {
+                        padding: 0 5% 5% 5%;
+                        gap: 10px;
+
+                        &-item {
+                            display: flex;
+                            height: 60px;
+
+                            img {
+                                width: 40px;
+                                height: 40px;
+                            }
+
+                            &-text {
+                                font-family: Inter;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 40px;
+                            }
+                        }
+                    }
+
+                    &-login {
+                        display: block;
+                        padding: 0 5% 0 5%;
+                        
+                        .login-mobile {
+                            
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 14px 30px;
+                            gap: 10px;
+
+                            width: 60px;
+                            height: 20px;
+
+                            background: #00FFF0;
+                            border-radius: 10px;
+
+                            border: 1px solid black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+//  ======================  < 375 ========================
+
+
+@media screen and (max-width: 376px) {
+    .navbar {
+        overflow: hidden;
+        display: flex;
+        width: 100%;
+        z-index: 100;
+        
+        &-logo {
+            padding: 30px 0 50px 5%;
+            z-index: 10;
+            
+            &-icon {
+                cursor: pointer;
+                height: 40px;
+            }
+        }
+        
+        &-tools {
+            z-index: 10;
+            display: flex;
+            margin-left: auto;
+            padding-right: 5%;
+            
+            &-item {
+                display: flex;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                cursor: pointer;
+                margin: auto 0 auto 0;
+            }
+            
+            .lang {
+                margin-right: 40px;
+                &-arrow {
+                    padding: 7px 0px 7px 2px;
+                }
+                display: none;
+            }
+            
+            .loupe {
+                margin-right: 40px;
+                display: none;
+            }
+            
+            .login {
+                margin-right: 40px;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 7px 18px;
+                
+                font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                
+                background: #00FFF0;
+                border-radius: 4px;
+                border: 1px solid #00FFF0;
+                color: black;
+
+                display: none;
+            }
+            
+            .login:hover {
+                background: #00002D;
+                color: #00FFF0;
+            }
+
+            .menu {
+                color: #000000;
+
+                #nav-icon4 {
+                    margin-top: 25px;
+                }
+
+                img {
+                    z-index: 999;
+                }
+                
+                &-content {
+                    position: relative;
+                    background-color: #00FFF0;
+                    
+                    &-hidden {
+                        position: absolute;
+                        width: 0;
+                        height: 0;
+                        display: none;
+                    }
+
+                    &-visible {
+                        position: absolute;
+                        width: 100%;
+                        height: 100vh;
+                        display: block;
+
+                        animation: menu-visible .2s linear 1 0s forwards;
+                    }
+
+                    @keyframes menu-visible {
+                        0% {
+                          left: 100%;
+                          top: -100%;
+                          opacity: 0.4;
+                          scale: 0.5;
+                        }
+                        100% {
+                          left: 0;
+                          top: 0;
+                          opacity: 1;
+                          scale: 1;
+                        }
+                    }
+
+                    &-header {
+                        padding: 30px 5% 5% 5%;
+
+                        img {
+                            height: 40px;
+                        }
+                    }
+
+                    &-content {
+                        padding: 5%;
+
+                        &-item {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 25px;
+                            line-height: 40px;
+                            padding-bottom: 1px;
+                        }
+                    }
+
+                    &-footer {
+                        padding: 5% 5% 7% 5%;
+                        gap: 10px;
+
+                        &-item {
+                            display: flex;
+                            height: 40px;
+
+                            img {
+                                width: 30px;
+                                height: 30px;
+                            }
+
+                            &-text {
+                                font-family: Inter;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 30px;
+                            }
+                        }
+                    }
+
+                    &-login {
+                        display: block;
+                        padding: 0 5% 0 5%;
+                        
+                        .login-mobile {
+                            
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 14px 30px;
+                            gap: 10px;
+
+                            width: 60px;
+                            height: 20px;
+
+                            background: #00FFF0;
+                            border-radius: 10px;
+
+                            border: 1px solid black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+//  ======================  < 320 ========================
+
+
+@media screen and (max-width: 321px) {
+    .navbar {
+        overflow: hidden;
+        display: flex;
+        width: 100%;
+        z-index: 100;
+        
+        &-logo {
+            padding: 30px 0 30px 5%;
+            z-index: 10;
+            
+            &-icon {
+                cursor: pointer;
+                height: 40px;
+            }
+        }
+        
+        &-tools {
+            z-index: 10;
+            display: flex;
+            margin-left: auto;
+            padding-right: 5%;
+            
+            &-item {
+                display: flex;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                cursor: pointer;
+                margin: auto 0 auto 0;
+            }
+            
+            .lang {
+                margin-right: 40px;
+                &-arrow {
+                    padding: 7px 0px 7px 2px;
+                }
+                display: none;
+            }
+            
+            .loupe {
+                margin-right: 40px;
+                display: none;
+            }
+            
+            .login {
+                margin-right: 40px;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 7px 18px;
+                
+                font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                
+                background: #00FFF0;
+                border-radius: 4px;
+                border: 1px solid #00FFF0;
+                color: black;
+
+                display: none;
+            }
+            
+            .login:hover {
+                background: #00002D;
+                color: #00FFF0;
+            }
+
+            .menu {
+                color: #000000;
+
+                #nav-icon4 {
+                    margin-top: 35px;
+                }
+
+                img {
+                    z-index: 999;
+                }
+                
+                &-content {
+                    position: relative;
+                    background-color: #00FFF0;
+                    
+                    &-hidden {
+                        position: absolute;
+                        width: 0;
+                        height: 0;
+                        display: none;
+                    }
+
+                    &-visible {
+                        position: absolute;
+                        width: 100%;
+                        height: 100vh;
+                        display: block;
+
+                        animation: menu-visible .2s linear 1 0s forwards;
+                    }
+
+                    @keyframes menu-visible {
+                        0% {
+                          left: 100%;
+                          top: -100%;
+                          opacity: 0.4;
+                          scale: 0.5;
+                        }
+                        100% {
+                          left: 0;
+                          top: 0;
+                          opacity: 1;
+                          scale: 1;
+                        }
+                    }
+
+                    &-header {
+                        padding: 30px 5% 1% 5%;
+
+                        img {
+                            height: 40px;
+                        }
+                    }
+
+                    &-content {
+                        padding: 5%;
+
+                        &-item {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 30px;
+                            padding-bottom: 1px;
+                        }
+                    }
+
+                    &-footer {
+                        padding: 1% 5% 5% 5%;
+                        gap: 10px;
+
+                        &-item {
+                            display: flex;
+                            height: 25px;
+
+                            img {
+                                width: 20px;
+                                height: 20px;
+                            }
+
+                            &-text {
+                                font-family: Inter;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 20px;
+                            }
+                        }
+                    }
+
+                    &-login {
+                        display: block;
+                        padding: 0 5% 0 5%;
+                        
+                        .login-mobile {
+                            
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 14px 30px;
+                            gap: 10px;
+
+                            width: 60px;
+                            height: 20px;
+
+                            background: #00FFF0;
+                            border-radius: 10px;
+
+                            border: 1px solid black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

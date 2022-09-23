@@ -1,0 +1,1237 @@
+@media screen and (min-width: 1601px) {
+    .online-cfd-container {
+        padding: 0 5% 0 5%;
+        margin-top: 10%;
+        width: 100%;
+        position: relative;
+        z-index: 3;
+
+        &-content {
+            display: flex;
+
+            .info {
+                margin-top: 60px;
+
+                .description {
+                    max-width: 560px;
+                    color: #A5A5A5;
+                    
+                    &-block {
+                        margin-bottom: 10px;
+                    }
+
+                    .download {
+                        margin-top: 50px;
+                        &-text {
+                            color: white;
+                        }
+                        &-platforms {
+                            margin-top: 20px;
+                            &-item {
+                                padding-right: 12%;
+                                height: 60px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+            
+        .map-glow {
+            position: relative;
+            width: 50%;
+            margin: 4% 0 0 16%;
+
+            .map {
+                // width: 800px;
+                width: 80%;
+                position: absolute;
+                // margin-left: -100px;
+            }
+
+            #online-cfd-coins {
+                position: absolute;
+                img {
+                    position: absolute;
+                }
+                #coin-facebook {
+                    top: 200px;
+                }
+                #coin-bitcoin {
+                    left: 140px;
+                    top: 50px;
+                }
+                #coin-tesla {
+                    left: 320px;
+                    top: -70px;
+                }
+                #coin-ethereum {
+                    left: 340px;
+                    top: 220px;
+                }
+                #coin-apple {
+                    left: 500px;
+                    top: 80px;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+// =============    < 1600    =============
+
+
+@media screen and (max-width: 1600px) and (min-width: 1431px) {
+    .online-cfd-container {
+        padding: 0 5% 0 5%;
+        margin-top: 10%;
+        width: 100%;
+        position: relative;
+        z-index: 3;
+
+        &-content {
+            display: flex;
+
+            .info {
+                margin-top: 60px;
+
+                .description {
+                    max-width: 560px;
+                    color: #A5A5A5;
+                    
+                    &-block {
+                        margin-bottom: 10px;
+                    }
+
+                    .download {
+                        margin-top: 50px;
+                        &-text {
+                            color: white;
+                        }
+                        &-platforms {
+                            margin-top: 20px;
+                            &-item {
+                                padding-right: 12%;
+                                height: 60px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+            
+        .map-glow {
+            position: relative;
+            width: 50%;
+            margin: 6% 0 0 16%;
+
+            .map {
+                // width: 800px;
+                width: 90%;
+                position: absolute;
+                margin-left: -100px;
+            }
+
+            #online-cfd-coins {
+                position: absolute;
+                img {
+                    position: absolute;
+                }
+                #coin-facebook {
+                    top: 200px;
+                }
+                #coin-bitcoin {
+                    left: 140px;
+                    top: 50px;
+                }
+                #coin-tesla {
+                    left: 320px;
+                    top: -70px;
+                }
+                #coin-ethereum {
+                    left: 340px;
+                    top: 220px;
+                }
+                #coin-apple {
+                    left: 500px;
+                    top: 80px;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
+// =============    < 1430    =============
+
+
+@media screen and (max-width: 1431px) and (min-width: 1281px) {
+    .online-cfd-container {
+        padding: 0 5% 0 5%;
+        margin-top: 10%;
+        width: 100%;
+        position: relative;
+        z-index: 3;
+
+        &-content {
+            display: flex;
+
+            .info {
+                margin-top: 60px;
+                // background-color: black;
+
+                .description {
+                    max-width: 550px;
+                    color: #A5A5A5;
+                    
+                    &-block {
+                        margin-bottom: 10px;
+                    }
+
+                    .download {
+                        margin-top: 50px;
+                        &-text {
+                            color: white;
+                        }
+                        &-platforms {
+                            margin-top: 20px;
+                            &-item {
+                                padding-right: 12%;
+                                height: 60px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+            
+        .map-glow {
+            position: relative;
+            width: 50%;
+            margin: 6% 0 0 10%;
+
+            .map {
+                // width: 800px;
+                width: 100%;
+                position: absolute;
+                margin-left: -100px;
+            }
+
+            #online-cfd-coins {
+                position: absolute;
+                margin-left: -70px;
+                img {
+                    position: absolute;
+                }
+                #coin-facebook {
+                    top: 200px;
+                }
+                #coin-bitcoin {
+                    left: 140px;
+                    top: 50px;
+                }
+                #coin-tesla {
+                    left: 320px;
+                    top: -70px;
+                }
+                #coin-ethereum {
+                    left: 340px;
+                    top: 220px;
+                }
+                #coin-apple {
+                    left: 500px;
+                    top: 80px;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
+// =============    < 1280    =============
+
+
+@media screen and (max-width: 1281px) and (min-width: 1025px) {
+    .online-cfd-container {
+        padding: 0 5% 0 5%;
+        margin-top: 10%;
+        width: 100%;
+        position: relative;
+        z-index: 3;
+
+        &-content {
+            display: flex;
+
+            .info {
+                margin-top: 60px;
+                // background-color: black;
+
+                .description {
+                    max-width: 550px;
+                    color: #A5A5A5;
+                    
+                    &-block {
+                        margin-bottom: 10px;
+                    }
+
+                    .download {
+                        margin-top: 50px;
+                        &-text {
+                            color: white;
+                        }
+                        &-platforms {
+                            margin-top: 20px;
+                            &-item {
+                                padding-right: 12%;
+                                height: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+            
+        .map-glow {
+            position: relative;
+            width: 50%;
+            margin: 10% 0 0 10%;
+
+            .map {
+                // width: 800px;
+                width: 90%;
+                position: absolute;
+                margin-left: -60px;
+            }
+
+            #online-cfd-coins {
+                position: absolute;
+                margin-left: -50px;
+                img {
+                    position: absolute;
+                }
+                #coin-facebook {
+                    top: 200px;
+                    width: 160px;
+                }
+                #coin-bitcoin {
+                    left: 120px;
+                    top: 50px;
+                    width: 100px;
+                }
+                #coin-tesla {
+                    left: 260px;
+                    top: -70px;
+                    width: 80px;
+                }
+                #coin-ethereum {
+                    left: 250px;
+                    top: 180px;
+                    width: 120px;
+                }
+                #coin-apple {
+                    left: 360px;
+                    top: 80px;
+                    width: 90px;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
+// =============    < 1024    =============
+
+
+@media screen and (max-width: 1025px) and (min-width: 861px) {
+    .online-cfd-container {
+        // padding: 0 5% 0 5%;
+        margin-top: 10%;
+        width: 100%;
+        position: relative;
+        z-index: 3;
+
+        .header {
+            padding: 0 5% 0 5%;
+        }
+        
+        &-content {
+            // background-color: blue;
+            width: 90%;
+            padding: 0 5% 0 5%;
+            position: relative;
+
+            .info {
+                position: relative;
+                margin-top: 60px;
+                // background-color: black;
+                width: 100%;
+
+                .description {
+                    // max-width: 550px;
+                    color: #A5A5A5;
+                    display: flex;
+                    
+                    &-first {
+                        width: 49%;
+                    }
+
+                    &-second {
+                        margin-left: 2%;
+                        width: 49%;
+                    }
+
+                    &-block {
+                        margin-bottom: 10px;
+                    }
+
+                    .download {
+                        margin-top: 20px;
+                        &-text {
+                            color: white;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 22px;
+
+                        }
+                        &-platforms {
+                            margin-top: 20px;
+                            gap: 15%;
+                            display: flex;
+
+                            &-item {
+                                // padding-right: 12%;
+                                height: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+            
+        .map-glow {
+            width: 100%;
+            margin-top: 150px;
+            height: 400px;
+
+            .map {
+                width: 80%;
+                display: block;
+                margin: 0 auto 0 auto;
+            }
+
+            #online-cfd-coins {
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                margin-top: -300px;
+                margin-left: 150px;
+
+                img {
+                    position: absolute;
+                }
+                #coin-facebook {
+                    top: 200px;
+                }
+                #coin-bitcoin {
+                    left: 140px;
+                    top: 50px;
+                }
+                #coin-tesla {
+                    left: 320px;
+                    top: -70px;
+                }
+                #coin-ethereum {
+                    left: 340px;
+                    top: 220px;
+                }
+                #coin-apple {
+                    left: 500px;
+                    top: 80px;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+// =============    < 860    =============
+
+
+@media screen and (max-width: 861px) and (min-width: 701px) {
+    .online-cfd-container {
+        // padding: 0 5% 0 5%;
+        margin-top: 150px;
+        width: 100%;
+        position: relative;
+        z-index: 3;
+
+        .header {
+            padding: 0 5% 0 5%;
+        }
+        
+        &-content {
+            // background-color: blue;
+            width: 90%;
+            padding: 0 5% 0 5%;
+            position: relative;
+
+            .info {
+                position: relative;
+                margin-top: 60px;
+                // background-color: black;
+                width: 100%;
+
+                .description {
+                    // max-width: 550px;
+                    color: #A5A5A5;
+                    display: flex;
+                    
+                    &-first {
+                        width: 49%;
+                    }
+
+                    &-second {
+                        margin-left: 2%;
+                        width: 49%;
+                    }
+
+                    &-block {
+                        margin-bottom: 10px;
+                    }
+
+                    .download {
+                        margin-top: 20px;
+                        &-text {
+                            color: white;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 22px;
+
+                        }
+                        &-platforms {
+                            margin-top: 20px;
+                            gap: 10%;
+                            display: flex;
+
+                            &-item {
+                                // padding-right: 12%;
+                                height: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+            
+        .map-glow {
+            width: 100%;
+            margin-top: 150px;
+            height: 300px;
+
+            .map {
+                width: 80%;
+                display: block;
+                margin: 0 auto 0 auto;
+            }
+
+            #online-cfd-coins {
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                margin-top: -280px;
+                margin-left: 70px;
+
+                img {
+                    position: absolute;
+                }
+                #coin-facebook {
+                    top: 200px;
+                }
+                #coin-bitcoin {
+                    left: 140px;
+                    top: 50px;
+                }
+                #coin-tesla {
+                    left: 320px;
+                    top: -70px;
+                }
+                #coin-ethereum {
+                    left: 340px;
+                    top: 220px;
+                }
+                #coin-apple {
+                    left: 500px;
+                    top: 80px;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
+
+// =============    < 700    =============
+
+
+@media screen and (max-width: 701px) and (min-width: 641px) {
+    .online-cfd-container {
+        // padding: 0 5% 0 5%;
+        margin-top: 150px;
+        width: 100%;
+        position: relative;
+        z-index: 3;
+
+        .header {
+            padding: 0 5% 0 5%;
+        }
+        
+        &-content {
+            // background-color: blue;
+            width: 90%;
+            padding: 0 5% 0 5%;
+            position: relative;
+
+            .info {
+                position: relative;
+                margin-top: 60px;
+                // background-color: black;
+                width: 100%;
+
+                .description {
+                    // max-width: 550px;
+                    color: #A5A5A5;
+                    display: flex;
+                    
+                    &-first {
+                        width: 49%;
+                    }
+
+                    &-second {
+                        margin-left: 2%;
+                        width: 49%;
+                    }
+
+                    &-block {
+                        margin-bottom: 10px;
+                    }
+
+                    .download {
+                        margin-top: 20px;
+                        &-text {
+                            color: white;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 22px;
+
+                        }
+                        &-platforms {
+                            margin-top: 20px;
+                            gap: 10%;
+                            display: flex;
+
+                            &-item {
+                                // padding-right: 12%;
+                                height: 40px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+            
+        .map-glow {
+            position: relative;
+            width: 100%;
+            // background-color: blueviolet;
+            margin-top: 150px;
+            justify-content: center;
+            height: 300px;
+
+            .map {
+                width: 80%;
+                display: block;
+                margin: 0 auto 0 auto;
+            }
+
+            #online-cfd-coins {
+                position: absolute;
+                margin-top: -250px;
+
+                img {
+                    position: absolute;
+                }
+                #coin-facebook {
+                    top: 200px;
+                }
+                #coin-bitcoin {
+                    left: 140px;
+                    top: 50px;
+                }
+                #coin-tesla {
+                    left: 320px;
+                    top: -70px;
+                }
+                #coin-ethereum {
+                    left: 340px;
+                    top: 220px;
+                }
+                #coin-apple {
+                    left: 500px;
+                    top: 80px;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+// =============    < 640    =============
+
+
+@media screen and (max-width: 641px) and (min-width: 481px) {
+    .online-cfd-container {
+        // padding: 0 5% 0 5%;
+        margin-top: 120px;
+        width: 100%;
+        position: relative;
+        z-index: 3;
+
+        .header {
+            padding: 0 5% 0 5%;
+        }
+        
+        &-content {
+            // background-color: blue;
+            width: 90%;
+            padding: 0 5% 0 5%;
+            position: relative;
+
+            .info {
+                position: relative;
+                margin-top: 60px;
+                // background-color: black;
+                width: 100%;
+
+                .description {
+                    // max-width: 550px;
+                    color: #A5A5A5;
+                    display: flex;
+                    
+                    &-first {
+                        width: 49%;
+                    }
+
+                    &-second {
+                        margin-left: 2%;
+                        width: 49%;
+                    }
+
+                    &-block {
+                        margin-bottom: 10px;
+                    }
+
+                    .download {
+                        margin-top: 20px;
+                        &-text {
+                            color: white;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 22px;
+
+                        }
+                        &-platforms {
+                            margin-top: 20px;
+                            gap: 10%;
+                            display: flex;
+
+                            &-item {
+                                // padding-right: 12%;
+                                height: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+            
+        .map-glow {
+            position: relative;
+            width: 100%;
+            // background-color: blueviolet;
+            margin-top: 100px;
+            justify-content: center;
+            height: 300px;
+
+            .map {
+                width: 90%;
+                display: block;
+                margin: 0 auto 0 auto;
+            }
+
+            #online-cfd-coins {
+                margin-top: -200px;
+                position: absolute;
+                img {
+                    position: absolute;
+                }
+                #coin-facebook {
+                    top: 180px;
+                }
+                #coin-bitcoin {
+                    left: 140px;
+                    top: 40px;
+                    width: 100px;
+                }
+                #coin-tesla {
+                    left: 280px;
+                    top: -70px;
+                    width: 80px;
+                }
+                #coin-ethereum {
+                    left: 300px;
+                    top: 180px;
+                    width: 120px;
+                }
+                #coin-apple {
+                    left: 400px;
+                    top: 30px;
+                    width: 90px;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+// =============    < 480    =============
+
+
+@media screen and (max-width: 481px) and (min-width: 401px) {
+    .online-cfd-container {
+        // padding: 0 5% 0 5%;
+        margin-top: 120px;
+        width: 100%;
+        position: relative;
+        z-index: 3;
+
+        .header {
+            padding: 0 3% 0 3%;
+            font-size: 24px;
+            line-height: 34px;
+        }
+        
+        &-content {
+            // background-color: blue;
+            width: 90%;
+            padding: 0 3% 0 3%;
+            position: relative;
+
+            .info {
+                position: relative;
+                margin-top: 30px;
+                // background-color: black;
+                width: 100%;
+
+                .description {
+                    // max-width: 550px;
+                    color: #A5A5A5;
+                    // display: flex;
+                    
+                    &-first {
+                        width: 100%;
+                    }
+
+                    &-second {
+                        width: 100%;
+                    }
+
+                    &-block {
+                        margin-bottom: 10px;
+                        font-size: 14px;
+                        line-height: 21px;
+                    }
+
+                    .download {
+                        margin-top: 30px;
+                        &-text {
+                            color: white;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 21px;
+
+                        }
+                        &-platforms {
+                            margin-top: 20px;
+                            gap: 12%;
+                            display: flex;
+                            justify-content: center;
+                            // display: grid;
+                            // grid-template: repeat(1, 0fr) / repeat(4, 4fr);
+
+                            &-item {
+                                // padding-right: 12%;
+                                // width: 25%;
+                                height: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+            
+        .map-glow {
+            position: relative;
+            width: 100%;
+            // background-color: blueviolet;
+            margin-top: 100px;
+            justify-content: center;
+            // height: 500px;
+
+            .map {
+                width: 90%;
+                display: block;
+                margin: 0 auto 0 auto;
+            }
+
+            #online-cfd-coins {
+                position: absolute;
+                margin-top: -200px;
+
+                img {
+                    position: absolute;
+                }
+                #coin-facebook {
+                    top: 150px;
+                    left: 20px;
+                    width: 110px;
+                }
+                #coin-bitcoin {
+                    left: 60px;
+                    top: 0px;
+                    width: 80px;
+                }
+                #coin-tesla {
+                    left: 280px;
+                    top: 80px;
+                    width: 60px;
+                }
+                #coin-ethereum {
+                    left: 180px;
+                    top: 130px;
+                    width: 80px;
+                }
+                #coin-apple {
+                    left: 200px;
+                    top: 30px;
+                    width: 60px;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+// =============    < 400    =============
+
+
+@media screen and (max-width: 401px) and (min-width: 316px) {
+    .online-cfd-container {
+        // padding: 0 5% 0 5%;
+        margin-top: 120px;
+        width: 100%;
+        position: relative;
+        z-index: 3;
+
+        .header {
+            padding: 0 3% 0 3%;
+            font-size: 24px;
+            line-height: 34px;
+        }
+        
+        &-content {
+            // background-color: blue;
+            width: 90%;
+            padding: 0 3% 0 3%;
+            position: relative;
+
+            .info {
+                position: relative;
+                margin-top: 30px;
+                // background-color: black;
+                width: 100%;
+
+                .description {
+                    // max-width: 550px;
+                    color: #A5A5A5;
+                    // display: flex;
+                    
+                    &-first {
+                        width: 100%;
+                    }
+
+                    &-second {
+                        width: 100%;
+                    }
+
+                    &-block {
+                        margin-bottom: 10px;
+                        font-size: 14px;
+                        line-height: 21px;
+                    }
+
+                    .download {
+                        margin-top: 30px;
+                        &-text {
+                            color: white;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 21px;
+
+                        }
+                        &-platforms {
+                            margin-top: 20px;
+                            gap: 12%;
+                            display: flex;
+                            justify-content: center;
+                            // display: grid;
+                            // grid-template: repeat(1, 0fr) / repeat(4, 4fr);
+
+                            &-item {
+                                // padding-right: 12%;
+                                // width: 25%;
+                                height: 40px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+            
+        .map-glow {
+            position: relative;
+            width: 100%;
+            // background-color: blueviolet;
+            margin-top: 100px;
+            justify-content: center;
+            // height: 500px;
+
+            .map {
+                width: 90%;
+                display: block;
+                margin: 0 auto 0 auto;
+            }
+
+            #online-cfd-coins {
+                position: absolute;
+                margin-top: -200px;
+
+                img {
+                    position: absolute;
+                }
+                #coin-facebook {
+                    top: 150px;
+                    left: 20px;
+                    width: 110px;
+                }
+                #coin-bitcoin {
+                    left: 60px;
+                    top: 0px;
+                    width: 80px;
+                }
+                #coin-tesla {
+                    left: 280px;
+                    top: 80px;
+                    width: 60px;
+                }
+                #coin-ethereum {
+                    left: 180px;
+                    top: 130px;
+                    width: 80px;
+                }
+                #coin-apple {
+                    left: 200px;
+                    top: 30px;
+                    width: 60px;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
+// =============    < 315    =============
+
+
+@media screen and (max-width: 315px) and (min-width: 0px) {
+    .online-cfd-container {
+        // padding: 0 5% 0 5%;
+        margin-top: 120px;
+        width: 100%;
+        position: relative;
+        z-index: 3;
+
+        .header {
+            padding: 0 3% 0 3%;
+            font-size: 24px;
+            line-height: 34px;
+        }
+        
+        &-content {
+            // background-color: blue;
+            width: 90%;
+            padding: 0 3% 0 3%;
+            position: relative;
+
+            .info {
+                position: relative;
+                margin-top: 30px;
+                // background-color: black;
+                width: 100%;
+
+                .description {
+                    // max-width: 550px;
+                    color: #A5A5A5;
+                    // display: flex;
+                    
+                    &-first {
+                        width: 100%;
+                    }
+
+                    &-second {
+                        width: 100%;
+                    }
+
+                    &-block {
+                        margin-bottom: 10px;
+                        font-size: 14px;
+                        line-height: 21px;
+                    }
+
+                    .download {
+                        margin-top: 30px;
+                        &-text {
+                            color: white;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 21px;
+
+                        }
+                        &-platforms {
+                            margin-top: 20px;
+                            gap: 12%;
+                            display: flex;
+                            justify-content: center;
+                            // display: grid;
+                            // grid-template: repeat(1, 0fr) / repeat(4, 4fr);
+
+                            &-item {
+                                // padding-right: 12%;
+                                // width: 25%;
+                                height: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+            
+        .map-glow {
+            position: relative;
+            width: 100%;
+            // background-color: blueviolet;
+            margin-top: 100px;
+            justify-content: center;
+            // height: 500px;
+
+            .map {
+                width: 90%;
+                display: block;
+                margin: 0 auto 0 auto;
+            }
+
+            #online-cfd-coins {
+                position: absolute;
+                margin-top: -200px;
+
+                img {
+                    position: absolute;
+                }
+                #coin-facebook {
+                    top: 150px;
+                    left: 0px;
+                    width: 110px;
+                }
+                #coin-bitcoin {
+                    left: 30px;
+                    top: 0px;
+                    width: 80px;
+                }
+                #coin-tesla {
+                    left: 200px;
+                    top: 80px;
+                    width: 60px;
+                }
+                #coin-ethereum {
+                    left: 120px;
+                    top: 130px;
+                    width: 80px;
+                }
+                #coin-apple {
+                    left: 150px;
+                    top: 30px;
+                    width: 60px;
+                }
+            }
+
+        }
+    }
+}

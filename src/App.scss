@@ -1,0 +1,203 @@
+@font-face {
+    font-family: Furore;
+    src: url('fonts/Furore.otf');
+}
+
+@font-face {
+    font-family: Inter;
+    src: url('fonts/Inter.ttf');
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    // width: 1000px;
+    background-color: #00002D;
+    // background-color: white;
+    color: #FFFFFF;
+    // overflow: hidden;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.h {
+    &-1 {
+        font-family: 'Furore';
+        font-size: 64px;
+        line-height: 74px;
+    }
+
+    &-2 {
+        font-family: 'Furore';
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    &-3 {
+        font-family: 'Furore';
+        font-size: 36px;
+        line-height: 48px;
+        font-weight: 400;
+    }
+}
+
+.content {
+    &-1 {
+        font-family: 'Inter';
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    &-2 {
+        font-family: 'Inter';
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 600;
+    }
+
+    &-3 {
+        font-family: 'Inter';
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    &-4 {
+        font-family: 'Inter';
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+
+    &-5 {
+        font-family: 'Inter';
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    &-6 {
+        font-family: 'Inter';
+        font-size: 10px;
+        line-height: 15px;
+        font-weight: 700;
+    }
+
+    &-7 {
+        font-family: 'Inter';
+        font-size: 10px;
+        line-height: 15px;
+    }
+}
+
+.shadow-button {
+    box-shadow: 0px 0px 38px -16px rgba(0,255,240,1);
+}
+
+
+::-webkit-scrollbar {
+    width: 4px;
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333; 
+}
+
+.unselectable {
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;   
+    -khtml-user-select: none;    
+    -moz-user-select: none;      
+    -ms-user-select: none;       
+    user-select: none;           
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.coin {
+    z-index: 11;
+    display: block;
+    &-apple {
+        width: 100px;
+    }
+
+    &-bitcoin {
+        width: 115px;
+    }
+
+    &-ethereum {
+        width: 125px;
+    }
+
+    &-facebook {
+        width: 160px;
+    }
+
+    &-tesla {
+        width: 95px;
+    }
+}
+
+
+
+// loader
+
+
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #fff;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  }
+  .lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+  }
+  @keyframes lds-ellipsis1 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes lds-ellipsis3 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  @keyframes lds-ellipsis2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(24px, 0);
+    }
+  }

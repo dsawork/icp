@@ -1,0 +1,518 @@
+@media screen and (min-width: 1601px) {
+    .twt-container {
+        width: 100%;
+        padding: 0 5% 0 5%;
+        margin-top: 150px;
+        position: relative;
+        z-index: 2;
+
+        &-header {
+            width: 800px;
+        }
+
+        &-content {
+            display: flex;
+            position: relative;
+
+            &-info {
+                width: 40%;
+
+                .description {
+                    color: #A5A5A5;
+                    margin-top: 60px;
+                    width: 74%;
+                }
+
+                .second {
+                    margin-top: 20px;
+                    font-weight: 700;
+                }
+                
+                .open-live-account {
+                    margin-top: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 14px 30px;
+                    width: 150px;
+
+                    background: #00FFF0;
+                    border-radius: 10px;
+
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+
+                    color: #000000;
+                    border: 1px solid #00FFF0;
+                }
+
+                .open-live-account:hover {
+                    background-color: #6FFFF6;;
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+
+            &-charts {
+                margin-top: 0px;
+                margin-left: 100px;
+                position: relative;
+
+                img {
+                    width: 600px;
+                    position: absolute;
+                }
+                
+                #charts {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+// =============    < 1601    ==============
+
+
+
+@media screen and (max-width: 1601px) and (min-width: 1281px) {
+    .twt-container {
+        width: 100%;
+        padding: 0 5% 0 5%;
+        margin-top: 150px;
+        position: relative;
+        z-index: 2;
+
+        &-header {
+            width: 800px;
+        }
+
+        &-content {
+            display: flex;
+            position: relative;
+
+            &-info {
+                width: 40%;
+                
+                .description {
+                    color: #A5A5A5;
+                    margin-top: 60px;
+                    width: 560px;
+                }
+
+                .second {
+                    margin-top: 20px;
+                    font-weight: 700;
+                }
+                
+                .open-live-account {
+                    margin-top: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 14px 30px;
+                    width: 150px;
+
+                    background: #00FFF0;
+                    border-radius: 10px;
+
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+
+                    color: #000000;
+                    border: 1px solid #00FFF0;
+                }
+
+                .open-live-account:hover {
+                    background-color: #6FFFF6;;
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+
+            &-charts {
+                margin-top: 100px;
+                margin-left: 200px;
+                position: relative;
+
+                img {
+                    width: 500px;
+                    position: absolute;
+                }
+                
+                #charts {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+// =============    < 1281    ==============
+
+
+
+@media screen and (max-width: 1281px) and (min-width: 1025px) {
+    .twt-container {
+        width: 100%;
+        padding: 0 5% 0 5%;
+        margin-top: 150px;
+        position: relative;
+        z-index: 2;
+
+        &-header {
+            width: 800px;
+        }
+
+        &-content {
+            display: flex;
+            position: relative;
+
+            &-info {
+                width: 40%;
+                
+                .description {
+                    color: #A5A5A5;
+                    margin-top: 60px;
+                    width: 100%;
+                }
+
+                .second {
+                    margin-top: 20px;
+                    font-weight: 700;
+                }
+                
+                .open-live-account {
+                    margin-top: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 14px 30px;
+                    width: 150px;
+
+                    background: #00FFF0;
+                    border-radius: 10px;
+
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+
+                    color: #000000;
+                    border: 1px solid #00FFF0;
+                }
+
+                .open-live-account:hover {
+                    background-color: #6FFFF6;;
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+
+            &-charts {
+                margin-top: 100px;
+                margin-left: 10%;
+                position: relative;
+
+                img {
+                    width: 450px;
+                    position: absolute;
+                }
+                
+                #charts {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+// =============    < 1024    ==============
+
+
+
+@media screen and (max-width: 1025px) and (min-width: 481px) {
+    .twt-container {
+        width: 100%;
+        margin-top: 150px;
+        position: relative;
+        z-index: 2;
+
+        &-header {
+            width: 90%;
+            padding: 0 5% 0 5%;
+        }
+
+        &-content {
+            padding: 0 5% 0 5%;
+            position: relative;
+
+            &-info {
+                width: 100%;
+                // background-color: blue;
+                
+                .description {
+                    color: #A5A5A5;
+                    margin-top: 60px;
+                    width: 440px;
+                }
+
+                .second {
+                    margin-top: 20px;
+                    font-weight: 700;
+                }
+                
+                .open-live-account {
+                    margin-top: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 14px 30px;
+                    width: 150px;
+
+                    background: #00FFF0;
+                    border-radius: 10px;
+
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+
+                    color: #000000;
+                    border: 1px solid #00FFF0;
+                }
+
+                .open-live-account:hover {
+                    background-color: #6FFFF6;;
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+
+            &-charts {
+                margin-top: 70px;
+                // margin-left: 10%;
+                position: relative;
+                // width: 100%;
+
+                img {
+                    margin: 0 auto 0 auto;
+                    width: 70%;
+                    display: block;
+                    position: relative;
+                }
+                
+                #charts {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+// =============    < 480    ==============
+
+
+
+@media screen and (max-width: 481px) and (min-width: 321px) {
+    .twt-container {
+        width: 100%;
+        margin-top: 150px;
+        position: relative;
+        z-index: 2;
+
+        &-header {
+            width: 90%;
+            padding: 0 3% 0 3%;
+            font-size: 24px;
+            line-height: 34px;
+        }
+
+        &-content {
+            padding: 0 3% 0 3%;
+            position: relative;
+
+            &-info {
+                width: 100%;
+                // background-color: blue;
+                
+                .description {
+                    color: #A5A5A5;
+                    margin-top: 30px;
+                    width: 100%;
+                    font-size: 14px;
+                    line-height: 21px;
+                }
+
+                .second {
+                    margin-top: 40px;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 21px;
+                    font-weight: 600;
+                }
+                
+                .open-live-account {
+                    margin-top: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 14px 30px;
+                    width: 150px;
+
+                    background: #00FFF0;
+                    border-radius: 10px;
+
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+
+                    color: #000000;
+                    border: 1px solid #00FFF0;
+                }
+
+                .open-live-account:hover {
+                    background-color: #6FFFF6;;
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+
+            &-charts {
+                margin-top: 70px;
+                // margin-left: 10%;
+                position: relative;
+                // width: 100%;
+
+                img {
+                    margin: 0 auto 0 auto;
+                    width: 100%;
+                    display: block;
+                    position: relative;
+                }
+                
+                #charts {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+// =============    < 320    ==============
+
+
+
+@media screen and (max-width: 321px) and (min-width: 0px) {
+    .twt-container {
+        width: 100%;
+        margin-top: 150px;
+        position: relative;
+        z-index: 2;
+
+        &-header {
+            width: 90%;
+            padding: 0 3% 0 3%;
+            font-size: 24px;
+            line-height: 34px;
+        }
+
+        &-content {
+            padding: 0 3% 0 3%;
+            position: relative;
+
+            &-info {
+                width: 100%;
+                
+                .description {
+                    color: #A5A5A5;
+                    margin-top: 20px;
+                    width: 100%;
+                    font-size: 14px;
+                    line-height: 21px;
+                }
+
+                .second {
+                    margin-top: 20px;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 21px;
+                    font-weight: 600;
+                }
+                
+                .open-live-account {
+                    margin-top: 15px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px 5px;
+                    width: 70%;
+
+                    background: #00FFF0;
+                    border-radius: 10px;
+
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+
+                    color: #000000;
+                    border: 1px solid #00FFF0;
+                }
+
+                .open-live-account:hover {
+                    background-color: #6FFFF6;;
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+
+            &-charts {
+                margin-top: 30px;
+                position: relative;
+
+                img {
+                    margin: 0 auto 0 auto;
+                    width: 100%;
+                    display: block;
+                    position: relative;
+                }
+                
+                #charts {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
