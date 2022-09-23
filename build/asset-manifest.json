@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.06043720.css",
+    "main.js": "/static/js/main.d026f3e1.js",
+    "static/js/787.b359c1a2.chunk.js": "/static/js/787.b359c1a2.chunk.js",
+    "static/media/Line-BG.png": "/static/media/Line-BG.75b7d3b2e185ccd2a5af.png",
+    "static/media/news-glow.png": "/static/media/news-glow.a10b36d42e84e5c9ed12.png",
+    "static/media/mob-phones.png": "/static/media/mob-phones.64d90a9dd936fc47b1fb.png",
+    "static/media/Inter.ttf": "/static/media/Inter.aadb65ac45347ff46699.ttf",
+    "static/media/charts-bg.png": "/static/media/charts-bg.10936027bba52ef0dc55.png",
+    "static/media/Map.webp": "/static/media/Map.ac93a762f13105168035.webp",
+    "static/media/bages.png": "/static/media/bages.0580a421619feaeac0d9.png",
+    "static/media/utip_blue.png": "/static/media/utip_blue.540834e770ece2d7443e.png",
+    "static/media/windows_blue.png": "/static/media/windows_blue.46e67e2fd910328d06e5.png",
+    "static/media/coin_ethereum.png": "/static/media/coin_ethereum.38b7553feb2914565db0.png",
+    "static/media/coin_apple.png": "/static/media/coin_apple.fdde87a140823b0bb46f.png",
+    "static/media/apple_blue.png": "/static/media/apple_blue.5533c8d889aceb1314a6.png",
+    "static/media/coin_facebook.png": "/static/media/coin_facebook.a29f355696623af54e52.png",
+    "static/media/android_blue.png": "/static/media/android_blue.0437585f856b7310452b.png",
+    "static/media/chart.png": "/static/media/chart.c72e581ab85cda7e2195.png",
+    "static/media/coin_tesla.png": "/static/media/coin_tesla.97e1a085897be7e943f3.png",
+    "static/media/steps.png": "/static/media/steps.f66693448b371593588e.png",
+    "static/media/coin_bitcoin.png": "/static/media/coin_bitcoin.98cc7017cc188085ed66.png",
+    "static/media/loading_dots.gif": "/static/media/loading_dots.6760a5e8d7e1476c7f32.gif",
+    "static/media/Furore.otf": "/static/media/Furore.7c2d24435f6f4ca0152e.otf",
+    "static/media/download_apple.png": "/static/media/download_apple.5ea8362a14962de3af58.png",
+    "static/media/coin_tesla.svg": "/static/media/coin_tesla.da5843189ce88b3a1c4067777e7deac1.svg",
+    "static/media/coin_apple.svg": "/static/media/coin_apple.d328c98ba942ce7aa28fb1e29fd14fc8.svg",
+    "static/media/coin_ethereum.svg": "/static/media/coin_ethereum.efef731192cb42a916f92fc3379f5eee.svg",
+    "static/media/coin_bitcoin.svg": "/static/media/coin_bitcoin.c25389cb55f278a4977039287618ec57.svg",
+    "static/media/coin_facebook.svg": "/static/media/coin_facebook.32f07cc249f1a475ab563034d124bd59.svg",
+    "index.html": "/index.html",
+    "main.06043720.css.map": "/static/css/main.06043720.css.map",
+    "main.d026f3e1.js.map": "/static/js/main.d026f3e1.js.map",
+    "787.b359c1a2.chunk.js.map": "/static/js/787.b359c1a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06043720.css",
+    "static/js/main.d026f3e1.js"
+  ]
+}
